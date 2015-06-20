@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background: #FFF none repeat scroll 0% 0%;
+}
+
+footer{
+	text-align: center;
+}
+
+#cabecalho{
+	height: 124px;
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+}
+
+#cabecalho a,ul{
+	text-decoration: none;
+}
+
+#subcabecalho{
+	text-align: left;
+	height: 40px;
+	background-color: #584534;
+}
+
+#subcabecalho ul{
+	list-style: outside none disc;
+	color: #fff;
+}
+
+.categoria{
+	display: inline-block;
+}
+
+.conteudo{
+	padding-top: 5px;
+}

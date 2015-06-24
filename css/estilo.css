@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "helvetica";
+
 }
 
 html{
@@ -8,8 +10,30 @@ html{
 }
 
 footer{
-	text-align: center;
-	color: #000;
+	display: table;
+	background-color: #97310E;
+	color: #ffffff;
+	width: 100%;
+	height: 400px;
+	padding-top: 5em;
+	padding-left: 10em;
+}
+
+#subfooter{
+	margin-left: 5em;
+	width: 60%;
+}
+
+ul#ul-footer,li {
+	list-style-type: none;
+}
+
+div.footer{
+	display: table-cell;
+}
+
+p.footer{
+	display: table-cell;
 }
 
 #cabecalho{
@@ -17,6 +41,7 @@ footer{
 	background-color: #000;
 	color: #fff;
 	text-align: right;
+	padding: 1em 3em 0 3em;
 }
 
 #cabecalho a,ul{
@@ -26,7 +51,8 @@ footer{
 #subcabecalho{
 	text-align: left;
 	height: 40px;
-	background-color: #584534;
+	background-color: #97310E;
+	padding: 0.5em 1em 0.5em 1em;
 }
 
 #subcabecalho ul{
@@ -43,12 +69,102 @@ footer{
 }
 
 .produto {
-	background-color: #000;
-	width: 300px;
+	width: 250px;
 	height:300px;
 	margin: 20px 20px;
 }
 
-img.imagemproduto{
+div.produto{
 	display: inline-block;
+	background: #A68F65 none repeat scroll 0% 0%;
+}
+
+.listasproduto {
+	padding: 2.5em 5em 5em 5em;
+}
+
+a {
+	text-decoration: none;
+	color: #97310E;
+}
+
+a.button {
+	padding: 0.5em;
+	border-radius: 0.5em;
+	color: #ffffff;
+	background: #97310E;
+	width: 100%;
+	display: inline-block;
+}
+
+.book-box {
+	margin-top: 2em;
+	width: 200px;
+	height: 300px;
+	border: none;
+	background: #ffffff;
+	display: inline-block;
+	margin-right: 5em;
+}
+
+.book-box-title {
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	color: #97310E;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.book-box-img {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.book-box-img img {
+    box-shadow: 0 0 5px #888888;
+}
+
+img.center {        
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.book-box-button {
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.book-box .book-box-button a {
+	visibility: hidden;
+}
+
+.book-box:hover .book-box-button a {
+	visibility: visible;	
+}
+
+.book-box:hover .book-box-img img {
+	box-shadow: 0 0 8px #444;	
+}
+
+.navbar a {
+	padding: 0.5em;
+	border-radius: 0.5em;
+	color: #ffffff;
+	background: #97310E;
+	width: 100%;
+	display: inline;
+	margin-right: 0.5em;
+}
+
+.navbar a:hover {
+	background: #DD4814;
 }
